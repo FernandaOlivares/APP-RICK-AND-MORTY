@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://www.freepnglogos.com/uploads/rick-and-morty/rick-and-morty-background-jurokoo-deviantart-0.png');
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 code {

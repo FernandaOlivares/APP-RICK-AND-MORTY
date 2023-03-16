@@ -1,0 +1,28 @@
+.cardsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    background-color: rebeccapurple;
+    padding: 2em;
+    border-radius: 15px;
+    gap: 30px;
+    flex-wrap: wrap;   
+}
+
+.cardsIndividual{
+    border-radius: 50%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.individual:hover{
+    background-color: rgb(255, 251, 0);
+}
+
+.cardStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
