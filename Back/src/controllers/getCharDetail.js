@@ -1,5 +1,5 @@
 const axios = require("axios");
-const getChardetail = (res, id)=>{
+const getCharDetail = (res, id)=>{
     axios.get(`https:rickandmortyapi.com/api/character/${id}`)
     .then((result) => result.data)
     .then((data) => {
@@ -22,4 +22,4 @@ const getChardetail = (res, id)=>{
         .end("El personaje no fue encontrado")
     );
 }
-module.exports = getChardetail;
+module.exports = getCharDetail;
